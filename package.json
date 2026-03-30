@@ -1,0 +1,11 @@
+{
+  "name": "nextalk",
+  "version": "1.0.0",
+  "description": "NexTalk — Full-Stack Real-Time Chat Application",
+  "private": true,
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  }
+}
